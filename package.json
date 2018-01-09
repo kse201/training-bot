@@ -1,0 +1,40 @@
+{
+  "name": "training-bot",
+  "description": "運動報告Bot",
+  "version": "0.0.0",
+  "author": "kse201 <kse.201@gmail.com>",
+  "dependencies": {
+    "hubot": "^2.19.0",
+    "hubot-help": "^0.2.2",
+    "hubot-shell": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jasmine": "^2.9.1",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.1",
+    "gulp-if": "^2.0.2",
+    "gulp-mocha": "^5.0.0",
+    "hubot-test-helper": "^1.8.1",
+    "mocha": "^4.1.0",
+    "sinon": "^4.1.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "private": true,
+  "scripts": {
+    "debug": "hubot -a shell --name 'training-bot'",
+    "fixpack": "fixpack",
+    "test": "gulp"
+  }
+}
