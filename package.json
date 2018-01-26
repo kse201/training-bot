@@ -6,7 +6,8 @@
   "dependencies": {
     "hubot": "^2.19.0",
     "hubot-help": "^0.2.2",
-    "hubot-shell": "^1.0.2"
+    "hubot-shell": "^1.0.2",
+    "hubot-slack": "^4.4.0"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -20,6 +21,7 @@
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
+    "fixpack": "^2.3.1",
     "gulp": "^3.9.1",
     "gulp-eslint": "^4.0.1",
     "gulp-if": "^2.0.2",
@@ -35,6 +37,7 @@
   "scripts": {
     "debug": "hubot -a shell --name 'training-bot'",
     "fixpack": "fixpack",
+    "start": "hubot -a slack --name 'training-bot'",
     "test": "gulp"
   }
 }
